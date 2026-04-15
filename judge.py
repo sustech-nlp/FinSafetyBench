@@ -67,7 +67,7 @@ class LLM():
         else:
             raise NameError(f"Unknown model {self.model_id}, please add implementation.")
 
-# ----------------- Evaluator 类定义 (保持用户提供的实现) -----------------
+
 class Evaluator():
     def __init__(self, judge_llm) -> None:
         self.judge_llm = judge_llm
@@ -230,7 +230,7 @@ def evaluate_jsonl(input_file: str, output_file: str, judge_llm_id: str, violati
             flip_attack_input = [{'content': question}, {'content': ''}] 
 
             try:
-                # *** 关键修改: 接收 gpt_eval_raw ***
+                
                 dict_eval, gpt_eval, gpt_eval_raw = evaluator.eval(
                     harmful_prompt=harmful_prompt,
                     flip_attack=flip_attack_input,
