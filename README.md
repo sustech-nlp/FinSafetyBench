@@ -13,12 +13,12 @@
 ### Taxonomy of Financial Violations
 The dataset encompasses 14 fine-grained subcategories across financial crimes and professional-ethics violations. 
 
-![Taxonomy of FinSafetyBench](picture\category.png) 
+![Taxonomy of FinSafetyBench](picture/category.png) 
 
 ### Data Construction Pipeline
 FinSafetyBench is built upon real-world case collections, data filtering, harmful instruction generation, external expansion, and bilingual alignment. 
 
-![Data Construction Pipeline](picture\FinBench.png) 
+![Data Construction Pipeline](picture/FinBench.png) 
 
 ## 📈 Main Results
 We evaluated several mainstream open-source LLMs against three representative jailbreak attacks (PAIR, ReNeLLM, FlipAttack) on both English and Chinese data. The table below shows the average Attack Success Rate (ASR%). 
