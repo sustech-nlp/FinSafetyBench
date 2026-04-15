@@ -13,7 +13,10 @@
 ### Taxonomy of Financial Violations
 The dataset encompasses 14 fine-grained subcategories across financial crimes and professional-ethics violations. 
 
-<img src="picture/category.png" width="600" alt="Taxonomy of FinSafetyBench">
+<p align="center">
+  <img src="picture/category.png" width="600" alt="Taxonomy of FinSafetyBench">
+</p>
+
 
 ### Data Construction Pipeline
 FinSafetyBench is built upon real-world case collections, data filtering, harmful instruction generation, external expansion, and bilingual alignment. 
