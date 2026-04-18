@@ -24,7 +24,7 @@ FinSafetyBench is built upon real-world case collections, data filtering, harmfu
 ![Data Construction Pipeline](picture/FinBench.png) 
 
 ## 📈 Main Results
-We evaluated several mainstream open-source LLMs against three representative jailbreak attacks (PAIR, ReNeLLM, FlipAttack) on both English and Chinese data. The table below shows the average Attack Success Rate (ASR%). 
+While general-purpose LLMs maintain near-zero baseline ASRs under direct non-jailbroken queries (with the exception of the finance-specific model XuanYuan), they demonstrate significant vulnerability when evaluated against three representative jailbreak attacks ([PAIR](https://github.com/patrickrchao/JailbreakingLLMs), [ReNeLLM](https://github.com/NJUNLP/ReNeLLM), [FlipAttack](https://github.com/yueliu1999/FlipAttack)). The implementations of these attacks closely follow their official source codes, with the jailbreak prompts natively adapted to Chinese when evaluated on the Chinese dataset. The table below shows the average Attack Success Rate (ASR%). 
 
 | Target Model | Attack Method | Financial Crimes (En) | Financial Crimes (Zh) | Ethical Violations (En) | Ethical Violations (Zh) |
 | :--- | :--- | :---: | :---: | :---: | :---: |
