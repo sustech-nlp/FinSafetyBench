@@ -61,3 +61,22 @@ The `judge.py` script is used to automatically evaluate model responses on the b
     ```
 
     *Note: You may need to modify the configuration variables in the `if __name__ == '__main__':` block at the end of the `judge.py` script according to your actual input/output filenames and Judge LLM Model ID.*
+
+---
+
+## Citation
+
+If you use the Compound-QA dataset or find our work useful, please cite our paper:
+
+```bibtex
+@misc{hou2026finsafetybenchevaluatingllmsafety,
+      title={FinSafetyBench: Evaluating LLM Safety in Real-World Financial Scenarios}, 
+      author={Yutao Hou and Yihan Jiang and Yuhan Xie and Jian Yang and Liwen Zhang and Hailiang Huang and Guanhua Chen and Yun Chen},
+      year={2026},
+      eprint={2605.00706},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2605.00706}, 
+}
+```
+
