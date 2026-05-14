@@ -66,7 +66,7 @@ The `judge.py` script is used to automatically evaluate model responses on the b
 
 ## Citation
 
-If you use the Compound-QA dataset or find our work useful, please cite our paper:
+If you use the FinSafetyBench or find our work useful, please cite our paper:
 
 ```bibtex
 @misc{hou2026finsafetybenchevaluatingllmsafety,
